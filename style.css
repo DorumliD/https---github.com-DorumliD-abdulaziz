@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 20, 213);
+  width: 100%;
+  height: 100vh;
+}
+body div {
+  width: 80%;
+  height: 90vh;
+  background-color: crimson;
+}
+body div form {
+  width: 90%;
+  height: 70%;
+  background-color: chartreuse;
+  color: red;
+}
+body div form fieldset {
+  width: 50%;
+  @media (min-width: 768px) and (max-width: 979px) {
+    width: 100%;
+  }
+  height: 80%;
+  background-color: yellow;
+}
+body div form fieldset legend {
+  background-color: pink;
+  color: blue;
+  font-size: 13px;
+}
+body div form fieldset legend:hover {
+  background-color: gray;
+  color: white;
+}
+body div form fieldset legend:active {
+  background-color: purple;
+  color: white;
+}
+body div form fieldset input[type=text] {
+  width: 30%;
+  border-radius: 19px;
+  border: 2px dotted blue;
+  height: 10%;
+  margin: 10px;
+  color: red;
+  background-color: chartreuse;
+}
+body div form fieldset input[type=text]::-moz-placeholder {
+  color: crimson;
+}
+body div form fieldset input[type=text]::placeholder {
+  color: crimson;
+}
+body div form fieldset input[type=button] {
+  width: 30%;
+  border-radius: 19px;
+  border: 2px dotted blue;
+  height: 10%;
+  margin: 10px;
+  color: red;
+  background-color: chartreuse;
+}
+body div form fieldset input[type=tel] {
+  width: 30%;
+  border-radius: 19px;
+  border: 2px dotted blue;
+  height: 10%;
+  margin: 10px;
+  color: red;
+  background-color: chartreuse;
+}
+body div h3 {
+  color: rgb(159, 154, 226);
+  font-size: 52px;
+}/*# sourceMappingURL=style.css.map */
+
